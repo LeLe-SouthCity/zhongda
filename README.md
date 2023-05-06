@@ -10,4 +10,4 @@
 
 以下开始考虑对分布式训练中任务在不同GPU的资源占用进行调整
 
-3、在双GPU服务器上对任务使用的GPU0的batchsize进行调整
+3、在双GPU服务器上对任务使用的GPU0的batchsize进行调整(对Dataparallel()进行了修改)
